@@ -1,0 +1,13 @@
+/* リンクのホバー効果 */
+a:hover {
+  color: #2563eb;
+}
+
+/* スキル・リンクリストの奇数・偶数で背景色を変える */
+ul li:nth-child(odd) {
+  background-color: #f3f4f6;
+}
+
+ul li:nth-child(even) {
+  background-color: #e5e7eb;
+}
