@@ -7,5 +7,31 @@
   </head>
   <body>
     <p class="text" id="intro">この文字は何色になるでしょうか？</p>
+
+    html
+    <style>
+      .button {
+        background-color: dodgerblue;
+        color: white;
+        border: 2px solid navy;
+        padding: 10px 20px; /* 上下10px, 左右20pxのpadding 余白部分にも、背景色であるdodgerblueが適用される*/
+      }
+    </style>
+    <button class="button">クリックしてください</button>
+
+    html
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+        border: 2px solid black;
+      }
+      .box-2 {
+        margin-top: 30px; /* 上に30pxのmargin */
+      }
+    </style>
+    <div class="box">ボックス1</div>
+    <div class="box box-2">ボックス2</div>
   </body>
 </html>

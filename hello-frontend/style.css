@@ -1,6 +1,46 @@
-/* リンクのホバー効果 */
-a:hover {
-  color: #2563eb;
+/* ページ全体の背景と基本フォント */
+body {
+  background-color: #f4f4f4; /* 薄いグレー */
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* カードのスタイル */
+.card {
+  width: 600px; /* カードの幅を600pxに固定 */
+  margin: 40px auto; /* 上下40px、左右は自動で中央寄せ */
+  background-color: #ffffff; /* カードの背景は白 */
+  padding: 30px; /* カードの内側に30pxの余白 */
+  border: 1px solid #ddd; /* 薄いグレーの枠線 */
+  border-radius: 8px; /* 角を少し丸くする */
+}
+
+/* 見出しのスタイル */
+h1 {
+  text-align: center; /* テキストを中央寄せ */
+  color: #2c3e50;
+}
+
+h2 {
+  border-bottom: 2px solid #3498db; /* 青い下線を追加 */
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* リストのスタイル */
+ul {
+  list-style: none; /* リストの黒丸を削除 */
+  padding: 0;
+}
+
+/* リンクのスタイル */
+li a {
+  text-decoration: none; /* リンクの下線を削除 */
+  color: #3498db; /* リンクの色を青に */
+}
+
+li a:hover {
+  text-decoration: underline; /* マウスが乗ったら下線を表示 */
 }
 
 /* スキル・リンクリストの奇数・偶数で背景色を変える */
