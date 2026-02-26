@@ -6,9 +6,75 @@
     <title>Tailwind CSS Handson</title>
     <link href="../dist/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline text-blue-500">
-      こんにちは、Tailwind CSS!
-    </h1>
+  <body class="bg-gray-100 p-4 sm:p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- カード1 -->
+      <div
+        class="max-w-sm md:max-w-none mx-auto bg-white rounded-lg shadow-md overflow-hidden md:flex md:flex-col"
+      >
+        <!-- カード画像 -->
+        <div class="md:h-48">
+          <img
+            class="w-full h-full object-cover"
+            src="https://via.placeholder.com/400x250"
+            alt="Card Image"
+          />
+        </div>
+        <!-- カード本文 -->
+        <div class="p-6 flex-1">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">
+            カードのタイトル 1
+          </h2>
+          <p class="text-gray-600 text-base">
+            ここにカードの詳細な説明文が入ります。
+          </p>
+        </div>
+      </div>
+
+      <!-- カード2 (カード1と同じ内容をコピー) -->
+     <div
+        class="max-w-sm md:max-w-none mx-auto bg-white rounded-lg shadow-md overflow-hidden md:flex md:flex-col"
+      >
+        <!-- カード画像 -->
+        <div class="md:h-48">
+          <img
+            class="w-full h-full object-cover"
+            src="https://via.placeholder.com/400x250"
+            alt="Card Image"
+          />
+        </div>
+        <!-- カード本文 -->
+        <div class="p-6 flex-1">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">
+            カードのタイトル 2
+          </h2>
+          <p class="text-gray-600 text-base">
+            ここにカードの詳細な説明文が入ります。
+          </p>
+        </div>
+      </div>
+
+      <!-- カード3 (カード1と同じ内容をコピー) -->
+      <div
+        class="max-w-sm md:max-w-none mx-auto bg-white rounded-lg shadow-md overflow-hidden md:flex md:flex-col"
+      >
+        <!-- カード画像 -->
+        <div class="md:h-48">
+          <img
+            class="w-full h-full object-cover"
+            src="https://via.placeholder.com/400x250"
+            alt="Card Image"
+          />
+        </div>
+        <!-- カード本文 -->
+        <div class="p-6 flex-1">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">
+            カードのタイトル 3
+          </h2>
+          <p class="text-gray-600 text-base">
+            ここにカードの詳細な説明文が入ります。
+          </p>
+        </div>
+      </div>
   </body>
 </html>
